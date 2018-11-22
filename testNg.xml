@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FLIPKART">
+
+ <test name="Firestone">
+ <classes> <class name="Firestone.TestCases"/>
+ </classes>
+ </test>
+ </suite>

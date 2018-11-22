@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FLIPKART]">
+  <test thread-count="5" verbose="0" name="Firestone(failed)">
+    <classes>
+      <class name="Firestone.TestCases">
+        <methods>
+          <include name="FireStone" invocation-numbers="1"/>
+          <include name="cleanupSuite"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- Firestone.TestCases -->
+    </classes>
+  </test> <!-- Firestone(failed) -->
+</suite> <!-- Failed suite [FLIPKART] -->
